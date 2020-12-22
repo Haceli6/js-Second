@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(https://wallpaperaccess.com/full/1555172.jpg);
+}
+
+.container {
+  width: 500px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 410px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h2 {
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #01225e;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.text {
+  color: #9e0101fb;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  background-color: transparent;
+}
+
+.text .text:hover button {
+  color: #e4e4e4;
+  -webkit-transition: 5s ease-in-out;
+  transition: 5s ease-in-out;
+}
+
+.accordion {
+  width: 100%;
+  position: relative;
+}
+
+.accordion .question {
+  border-top: #E5E5E5 solid 1px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion .question:last-child {
+  border-bottom: #E5E5E5 solid 1px;
+}
+
+.accordion .question button {
+  color: #0d412e;
+  background-color: transparent;
+  border: none;
+  font-size: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+}
+
+.accordion .question:hover button {
+  color: #FFFFFF;
+}
+
+.accordion .answer {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.accordion .answer p {
+  color: #718f05;
+}
+/*# sourceMappingURL=style.css.map */
